@@ -47,14 +47,14 @@ records the verdicts as fixtures; `score_rationale` reads them.
 
 ### 3. The write-up
 
-**3.1 Requirements brief** (`design.md`, one page). Steps 1 and 2 of the design framework
+**3.1 Requirements brief** (`writeups/design_3.1.md`, one page). Steps 1 and 2 of the design framework
 for the triage step: what decision the model makes, and whether it should be a model at
 all; then three to five requirements, each a rate on a slice with a remainder policy and
 an owner, with your measured numbers beside them. Which requirements does the system meet
 today? The [design review rubric](https://aise-stthomas.github.io/rubric) says what good
 looks like for those two steps.
 
-**3.2 Analysis** (`report.md`). Three parts, every number per slice and as a count:
+**3.2 Analysis** (`writeups/report_3.2.md`). Three parts, every number per slice and as a count:
 
 - **Judge validation.** The two of you label 30 rationales by hand, separately, then
   reconcile; run the judge on the same 30; the four counts per rubric question, per
@@ -68,7 +68,7 @@ looks like for those two steps.
   you believe each verdict and why; "cannot tell" is right when the difference is inside
   the noise floor, and wrong when it is not.
 
-**3.3 Blind spots** (`blind-spots.md`). What this harness cannot see: the `ambiguous`
+**3.3 Blind spots** (`writeups/blind-spots_3.3.md`). What this harness cannot see: the `ambiguous`
 items, the judge's failure modes, and the ways the system can be wrong that no ticket
 exercises. Written, honest, short.
 
