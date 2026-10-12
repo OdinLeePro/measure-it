@@ -76,13 +76,12 @@ changes the odds; it is not a defense.
 ```bash
 cp .env.example .env        # add your own Gemini key; do not commit .env
 uv sync                     # or: python3 -m venv .venv && . .venv/bin/activate && pip install -e .
-uv run record.py --runs 1 --provider fake --name readme-smoke    # no key needed
-uv run score.py readme-smoke
-rm -r fixtures/readme-smoke  # clean up: the fake provider's output is not data
+uv run record.py --runs 1 --limit 3 --provider gemini --name test    # 3 model calls
+uv run score.py test
+rm -r fixtures/test  # clean up the test outputs
 ```
 
-If `score.py` printed a table, the plumbing works. `--provider fake` is not a model; it
-checks the harness and tells you nothing about the system.
+If `score.py` printed a table, the model call and scoring plumbing work.
 
 ## The loop
 
