@@ -2,6 +2,12 @@
 
 An evaluation harness for one model call.
 
+## Project Group
+- Dante Razo, [razo3843@stthomas.edu](mailto:razo3843@stthomas.edu)
+- Odin Lee, [lee06265@stthomas.edu](mailto:lee06265@stthomas.edu)
+- Jannah ElNemr, [elne5502@stthomas.edu](mailto:elne5502@stthomas.edu)
+
+
 ## What is being measured
 
 **The system under test** is the support-ticket triage step from the *feel the
